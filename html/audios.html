@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #212B2D;
+}
+h1 {
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #FFB701;
+    font-size: 50px;
+}
+nav {
+    background-color: #FF9302;
+    height: 60px;
+}
+main {
+    padding: 20px 0;
+    background-color: #A7A7A7;
+}
+main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFECC0;
+}
+h2{
+    padding: 10px;
+    color: #FF9302;
+	}
+footer  {
+    background-color: #212B2D;
+    height: 50px;
+}
+h6 {
+    padding: 15px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #FF9302;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+#Navr li {
+    display: inline-block;
+    color: #5586A6;
+    width: 80px;
+    margin: 2px;
+    padding: 15px 24px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#Navr li a:link {
+    color: #FFECC0;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 24px;
+    border-width: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+#Navr li a:hover {
+    font-size: 22px;
+    color: #212B2D;
+    padding: 5px 25px;
+    margin: 5px;
+    background-color: #FFB701;
+}
+#Navr {
+	    padding: 2px;
+}
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Audio</h1>
+</header>
+<nav>
+<ul id="Navr">
+    <li><a href="../index.html">Inicio</a></li>
+	<li><a href="mi_primera_web.html">Formatos</a></li>
+    <li><a href="lista.html">Listas</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagen.html">Imagen</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+</ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio desde html</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus optio consequatur architecto voluptatum 
+	necessitatibus fuga incidunt, atque, minus facilis modi vel, impedit eum. Dolores ut nemo odio error, magni omnis 
+	reiciendis sapiente laborum pariatur ad mollitia nisi, voluptate id fugit illo dolore, aspernatur atque laudantium, 
+	numquam dicta. Excepturi, quis, animi!</p>
+    <audio controls>
+      <source src="../Audio/Nineties Pad - Brian Bolger.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Audio desde dreamweaver con muted y autoplay</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate nihil a eum, laboriosam doloremque expedita 
+	totam porro dolor rerum. Commodi iure harum vitae, impedit maxime voluptatibus, repellendus et maiores nulla provident 
+	debitis incidunt repudiandae reprehenderit, aut ad at expedita numquam, magni reiciendis assumenda ut. Facilis dolores 
+	nobis at molestias!</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../Audio/Seasons - Telecasted.mp3" type="audio/mp3">
+    </audio>
+    </section>
+  <section>
+    <h2>Audio en loop</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia iste nesciunt nemo animi laboriosam aperiam ipsam 
+	rem itaque ad repudiandae dignissimos esse iusto suscipit, asperiores, a deleniti modi commodi debitis provident. 
+	Voluptas perspiciatis consequuntur, sapiente explicabo reiciendis suscipit facilis in quia eos assumenda placeat, 
+	deserunt ducimus recusandae harum quis? Nisi?</p>
+    <audio controls="controls"  autoplay="autoplay" loop="loop" >
+      <source src="../Audio/Rustling Leaves.mp3" type="audio/mp3">
+    </audio>
+    </section>
+  <section>
+    <h2>Audio desde una página externa</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque autem fugit blanditiis quas, delectus. Explicabo 
+	eligendi sed reprehenderit molestias corrupti omnis voluptatibus officiis aspernatur perferendis praesentium 
+	necessitatibus, labore possimus ratione atque nisi placeat, consequuntur alias officia provident quas id, voluptate 
+	maxime? A illo perferendis deleniti iure at dolore, nemo nihil.</p>
+	  <iframe id='audio_3966368' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:80%;' 
+	  src='https://www.ivoox.com/player_ej_3966368_6_1.html' loading='lazy' > </iframe>
+    </section>
+</main>
+<footer>
+  <h6>Elaborado por Michel Alexandra Morales Cortés</h6>
+</footer>
+</body>
+</html>

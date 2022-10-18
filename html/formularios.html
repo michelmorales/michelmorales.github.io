@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	*{
+    margin: 0;
+    padding: 0;
+	}
+label {
+    color: #FF9302;
+    font-weight: bold;
+    font-size: large;
+}
+input[type=text] {
+    color: #FFB701;
+}
+input[type=submit] {
+    background-color: #FF9302;
+    width: 120px;
+}
+.TablaGen {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form2 submit {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #212B2D;
+}
+h1 {
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #FFB701;
+    font-size: 50px;
+}
+nav {
+    background-color: #FF9302;
+    height: 60px;
+}
+main {
+    padding: 20px 0;
+    background-color: #A7A7A7;
+}
+main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFECC0;
+}
+form #form3 {
+}
+h2{
+    padding: 10px;
+    color: #FF9302;
+	}
+footer  {
+    background-color: #212B2D;
+    height: 50px;
+}
+h6 {
+    padding: 15px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #FF9302;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+#Navr li {
+    display: inline-block;
+    color: #5586A6;
+    width: 80px;
+    margin: 2px;
+    padding: 15px 24px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#Navr li a:link {
+    color: #FFECC0;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 24px;
+    border-width: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+#Navr li a:hover {
+    font-size: 22px;
+    color: #212B2D;
+    padding: 5px 25px;
+    margin: 5px;
+    background-color: #FFB701;
+}
+#Navr {
+	    padding: 2px;
+}
+	#form2 {
+    width: 40%;
+    height: auto;
+    background-color: #212B2D;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    border: 15px solid #FF9302;
+    color: #FFFFFF;
+}
+#form2 select {
+    background-color: #FFB701;
+    color: #212B2D;
+}
+#form3 {
+    background-color: #212B2D;
+    color: #FFFFFF;
+    width: 60%;
+    margin: 0px auto;
+    padding: 20px;
+    height: auto;
+    font-weight: bolder;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#form4 {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #212B2D;
+}
+#form4 #textarea {
+    width: 100%;
+    padding: 3px;
+    height: 150px;
+}
+#form4 #email {
+    padding: 2px;
+    width: 100%;
+}
+.boton_centrado {
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 66%;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+</header>
+<nav>
+  <ul id="Navr">
+    <li><a href="../index.html">Inicio</a></li>
+	<li><a href="mi_primera_web.html">Formatos</a></li>
+    <li><a href="lista.html">Listas</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagen.html">Imagen</a></li>
+    <li><a href="audios.html">Audio </a></li>
+    <li><a href="video.html">Video</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit doloribus aperiam ullam adipisci facere ea iste! Soluta, non rerum suscipit ab ducimus odio cum. Quae suscipit est necessitatibus aliquam, sequi, odit alias, maiores quas nobis </p><br>
+	  <form id="form1" name="form1" method="get">
+	  <label for="nombre">Nombre:</label>
+	  <input type="text" name="nombre" id="nombre">
+	  <label for="apellido">Apellidos:</label>
+	  <input type="text" name="textfield" id="textfield">
+	  <input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+	  </form>
+  </section>
+  <section>
+    <h2>Formulario con radiobutton&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores illum sint impedit voluptatum quidem, explicabo dolorum excepturi, dolor eaque architecto soluta temporibus quae tenetur. Praesentium vero ut nisi ipsam nobis alias, dolorem facere provident aliquid numquam veritatis. Inventore at dolore ab, nesciunt reiciendis illo ipsam quaerat eum, corporis vitae.</p>
+    <form id="form2" name="form2" method="post">
+     		  Elige tu genero
+ <table width="200" class="TablaGen">
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="fem" id="RadioGroup2_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="masc" id="RadioGroup2_1">
+            Maculino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="otro" id="RadioGroup2_2">
+            Otro</label></td>
+        </tr>
+      </table>
+ <label for="select">De que Pais nos visitas? :</label>
+ <select name="select" id="select">
+   <option>México </option>
+   <option>Argentina</option>
+   <option>España</option>
+   <option>Italia</option>
+   <option>Estados Unido </option>
+ </select>
+ <br>
+ <p><br>
+   <label>Donde se quedara durante su visita?&nbsp; &nbsp;</label>
+   <br>
+   <label>
+     <input type="checkbox" name="Hospedaje_Temporal" value="domicilio_psrticular" id="Hospedaje_Temporal_0">
+     Casa de un Amigo</label>
+   <br>
+   <label>
+     <input type="checkbox" name="Hospedaje_Temporal" value="hotel" id="Hospedaje_Temporal_1">
+     Hotel</label>
+   <br>
+   <label>
+     <input type="checkbox" name="Hospedaje_Temporal" value="airbnb" id="Hospedaje_Temporal_2">
+     Airbnb</label>
+   <br>
+ </p>
+ <br>
+<input name="submit" type="submit" id="submit" formaction="gracias.html" formmethod="POST" value="Enviar">
+    </form>
+</section>
+  <section>
+    <h2>Formulario nuevo 5 input distintos</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae recusandae minima sint nobis nihil ullam accusamus placeat eveniet? Praesentium nostrum vitae perferendis. Facilis animi eligendi, necessitatibus placeat reiciendis itaque, praesentium odio mollitia. Quisquam eum a ea animi explicabo provident eius cum, quae quasi praesentium magni quod alias enim sequi quo!</p><br>
+    <form id="form3" name="form3" method="post">
+		<p>Para solicitar tu alarma y boleto para el concierto Yet to come in Busan porfavor llena el siguiente formulario </p><br>
+	<form>
+  <label for="username">Usuario:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="pwd">Contraseña</label>
+  <input type="password" id="pwd" name="pwd">
+  <label for="email2"><br><br>
+    Correo electronico:</label>
+  <input type="email" name="email2" id="email2">
+  <label for="tel"><br><br>
+    Numero de telefono:</label>
+  <input type="tel" name="tel" id="tel">
+  <label for="date"><br><br>
+    Fecha de nacimiento:</label>
+  <input type="date" name="date" id="date"><br><br>
+	<p>Elige a tu Bias</p>
+	<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">RM</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Jin</label><br>
+  <input type="radio" id="suga" name="fav_language" value="Suga">
+  <label for="suga">Suga</label><br>
+  <input type="radio" id="jhope" name="fav_language" value="jhope">
+  <label for="jhope">J-Hope</label><br>
+  <input type="radio" id="jimin" name="fav_language" value="jimin">
+  <label for="jimin">Jimin</label><br>
+  <input type="radio" id="tae" name="fav_language" value="tea">
+  <label for="tae">V</label><br>
+  <input type="radio" id="JK" name="fav_language" value="JK">
+  <label for="JK">Jungkook</label><br>
+	<input name="submit" type="submit" id="abc" value="Enviar">	 
+	  </form>	  </form>
+			  </form>
+    </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aspernatur ducimus, explicabo sed, doloremque ab quis eius quos, natus fugiat architecto quasi accusantium quam similique blanditiis? Impedit, eius voluptatum iusto. Expedita possimus iure nulla nisi ratione, quas, soluta odio voluptatibus velit ad illum ipsam laboriosam, amet accusamus neque sapiente suscipit?</p>
+    <form id="form4" name="form4" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email"><br>
+      <label for="textarea"><br>
+      Comentario:<br>
+      </label>
+      <textarea name="textarea" id="textarea"></textarea>
+      <input name="submit3" type="submit" class="boton_centrado" formaction="gracias.html" formmethod="GET" value="Enviar">
+    </form>
+    </section>
+</main>
+<footer>
+  <h6>Elaborado por Michel Alexandra Morales Cortés</h6>
+</footer>
+</body>
+</html>

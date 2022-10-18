@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lista</title>
+<style type="text/css">
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #212B2D;
+}
+h1 {
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #FFB701;
+    font-size: 50px;
+}
+nav {
+    background-color: #FF9302;
+    height: 60px;
+}
+main {
+    padding: 20px 0;
+    background-color: #A7A7A7;
+}
+main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFECC0;
+}
+main section ol , main section ul{
+    padding: 10px 30px;
+}
+#caja_u ul li {
+    list-style-type: decimal-leading-zero;
+}
+#caja_u ul ul li {
+    list-style-type: lower-alpha;
+}
+footer  {
+    background-color: #212B2D;
+    height: 50px;
+}
+h6 {
+    padding: 15px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #FF9302;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    color: #FF9302;
+}
+.caja_p ul li {
+    list-style-type: lower-roman;
+}
+#iconos_image ul li {
+    list-style-image: url(../Media/timon.png);
+    padding: 0;
+    text-align: left;
+}
+#caja_u {
+    background-color: #212B2D;
+}
+.caja_p {
+    color: #212B2D;
+    background-color: #F7ECDD;
+}
+.caja_u {
+    background-color: #FF9302;
+    color: #F7ECDD;
+}
+.caja_u h2 {
+    color: #F7ECDD;
+}
+#iconos_image {
+}
+#Nave {
+	    padding: 2px;
+
+}
+#Nave li {
+    display: inline-block;
+    color: #5586A6;
+    width: 80px;
+    margin: 2px;
+    padding: 15px 24px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+	#Nave li a:link{
+    color: #FFECC0;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 24px;
+    border-width: 5px;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+	}
+#Nave li a:hover {
+   font-size: 22px;
+    color: #212B2D;
+    padding: 5px 25px;
+    margin: 5px;
+    background-color: #FFB701;
+	}
+</style>
+</head>
+	
+<body>
+<header>
+  		<h1>Practica Listas</h1>
+</header>
+<nav>
+  <ul id="Nave">
+    <li><a href="../index.html">Inicio</a></li> 
+	<li><a href="mi_primera_web.html">Formatos</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagen.html">Imagen</a></li>
+    <li><a href="audios.html">Audio </a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  	<section class="caja_u">
+    	<h2>Lista desordenadas</h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta alias dolores, molestiae reiciendis 
+	ipsa saepe sed dolorum, provident aliquam, cumque explicabo animi esse eveniet mollitia hic? Ad quam similique 
+	nesciunt quaerat, reiciendis, facilis doloribus! Nam, veritatis facere eligendi ullam, optio consectetur 
+	sint sapiente, saepe quibusdam nemo, commodi sequi nisi tenetur!</p>
+	  	<ul>
+			<li>Luffy</li>
+			<li>Nami</li>
+			<li>Zoro</li>
+			<li>Sanji</li>
+			<li>Usopp</li>
+		</ul>
+  </section>
+  	<section class="caja_p">
+    	<h2>Listas ordenadas</h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, explicabo, necessitatibus! Eveniet 
+	itaque similique est sint veritatis magnam a reprehenderit odio atque quaerat non, beatae aliquam 
+	eligendi omnis, distinctio! Animi!</p>
+		<ol>
+			<li>Chopper</li>
+			<li>Robin</li>
+			<li>Franki</li>
+			<li>Brook</li>
+			<li>Jinbe</li>
+		</ol>
+	</section>
+  	<section class="caja_u">
+    	<h2>Listas mixtas</h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A est nostrum ex reiciendis, quaerat 
+	obcaecati aliquid porro incidunt repudiandae asperiores, quia temporibus ducimus quidem soluta.</p>
+		<ol>
+			<li>Saga East Blue</li>
+			<li>Saga Arabasta</li>
+			<li>Saga Skypiea</li>
+			<li>Saga Water 7</li>
+				<ul>
+				<li>Arco Davy Back Fight</li>
+				<li>Arco Dream of the Ocean</li>
+				<li>Arco Water 7</li>
+				<li>Arco Lobby de Enies</li>
+				<li>Arco Post-Enies Lobby
+					<ul>
+					<li><b>Episodios 312</b> ¡Gracias, Merry! La nevada en el mar de las 
+					despedidas</li>
+					<li><b>Episodios 313</b> ¡La perturbación de la paz! El Vice-Almirante con el
+					puño del amor</li>
+					<li><b>Episodios 314</b> ¿El linaje familiar más fuerte? ¡Se revela la identidad 
+					del padre de Luffy!</li>
+					<li><b>Episodios 315</b> Su nombre es "Nuevo Mundo". La zona más lejana de la 
+					Grand Line</li>
+					</ul>	
+				</li>	
+				</ul>
+			<li>Saga Thriller Bark</li>
+			<li>Saga Guerra de Marineford</li>
+		</ol>
+    </section>
+  	<section class="caja_p">
+  	  <h2>Listas...</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta alias dolores, molestiae reiciendis 
+	ipsa saepe sed dolorum, provident aliquam, cumque explicabo animi esse eveniet mollitia hic? Ad quam similique 
+	nesciunt quaerat, reiciendis, facilis doloribus! Nam, veritatis facere eligendi ullam, optio consectetur 
+	sint sapiente, saepe quibusdam nemo, commodi sequi nisi tenetur</p>
+		<ul>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+		</ul>
+	</section>
+  <section class="caja_u" id="caja_u">
+  	  <h2>Listas...</h2>
+  	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta alias dolores, molestiae reiciendis 
+  	    ipsa saepe sed dolorum, provident aliquam, cumque explicabo animi esse eveniet mollitia hic? Ad quam similique 
+  	    nesciunt quaerat, reiciendis, facilis doloribus! Nam, veritatis facere eligendi ullam, optio consectetur 
+  	    sint sapiente, saepe quibusdam nemo, commodi sequi nisi tenetur</p>
+	  	<ul>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<ul>
+				<li>Sub elemento de lista</li>
+				<li>Sub elemento de lista</li>
+				<li>Sub elemento de lista</li>
+			</ul>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+		</ul>
+  </section>
+  	<section class="caja_p" id="iconos_image">
+  	  <h2>Listas...</h2>
+  	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta alias dolores, molestiae reiciendis 
+  	    ipsa saepe sed dolorum, provident aliquam, cumque explicabo animi esse eveniet mollitia hic? Ad quam similique 
+  	    nesciunt quaerat, reiciendis, facilis doloribus! Nam, veritatis facere eligendi ullam, optio consectetur 
+  	    sint sapiente, saepe quibusdam nemo, commodi sequi nisi tenetur</p>
+		<ul>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+			<li>Elemento de lista</li>
+		</ul>
+  </section>
+</main>
+<footer>
+  	<h6>Elaborado por Morales Cortes Michel Alex</h6>
+</footer>
+</body>
+</html>

@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+	}
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #212B2D;
+}
+h1 {
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    color: #FFB701;
+    font-size: 50px;
+}
+nav {
+    background-color: #FF9302;
+    height: 60px;
+    font-size: 20px;
+}
+main {
+    padding: 20px 0;
+    background-color: #A7A7A7;
+}
+main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FFECC0;
+}
+footer  {
+    background-color: #212B2D;
+    height: 50px;
+}
+h6 {
+    padding: 15px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #FF9302;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+	h2{
+    padding: 10px;
+    color: #FF9302;
+	}
+#Na {
+     padding: 2px;
+    font-size: 20px;
+}
+#Na li {
+   display: inline-block;
+    color: #5586A6;
+    width: 80px;
+    margin: 2px;
+    padding: 15px 24px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#Na li a:link {
+    color: #FFECC0;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 24px;
+    border-width: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+#Na li a:hover {
+    font-size: 22px;
+    color: #212B2D;
+    padding: 5px 25px;
+    margin: 5px;
+    background-color: #FFB701;
+}
+#Tabla1 {
+    margin: 30px auto;
+    width: 70%;
+    padding: 0px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#Tabla1 tbody   {
+    background-color: #FFF6E1;
+    padding: 5px;
+    text-align: center;
+}
+#Tabla1 thead tr th {
+    background-color: #FFB701;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 45px;
+    border-collapse: collapse;
+}
+#Tabla1 th, #Tabla1 td {
+    border: 5px solid #949494;
+    height: 31px;
+    border-collapse: collapse;
+}
+.Tabla2 {
+    background-color: #FFEFCE;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+}
+.Tabla2 tbody tr td  {
+    padding: 10px;
+}
+.Tabla2 tbody tr:hover {
+    background-color: #BAB5FF;
+}
+.Tabla2 thead th {
+    background-color: #FFB701;
+    height: 42px;
+    color: #FFFFFF;
+}
+#Tabla3 {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.celdacentrada {
+    text-align: center;
+}
+#Tabla3 td {
+    width: 150px;
+}
+#Tabla3 th {
+    background-color: #FFB701;
+    color: #FFFFFF;
+    height: 42px;
+}
+#Tabla3 tr:nth-child(odd) {
+    background-color: #FFDA8E;
+}
+#Tabla3 tr:nth-child(even) {
+    background-color: #FFEFCE;
+    height: 35px;
+}
+.Tabla4 {
+    width: 1000px;
+    border-collapse: collapse;
+}
+.Tabla4 thead {
+    background-color: #FFB701;
+    color: #FFFFFF;
+}
+.Tabla4 tr:nth-child(even) {
+    background-color: #FFDA8E;
+}
+.Tabla4 tbody tr:nth-child(odd) {
+    background-color: #FFEFCE;
+}
+.Tabla4 th, .Tabla4 td {
+    width: 200px;
+    height: 30px;
+}
+.Overflow_x {
+    overflow-x: scroll;
+}
+.-Tabla4 {
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas</h1>
+</header>
+<nav> 
+	<ul id="Na">
+  	<li><a href="../index.html">Inicio</a></li>
+    <li><a href="mi_primera_web.html">Formatos</a></li>
+    <li><a href="lista.html">Listas</a></li>
+	<li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagen.html">Imagen</a></li>
+    <li><a href="audios.html">Audio </a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus nibh, laoreet in vulputate et, euismod in leo. Sed feugiat
+		non eros nec facilisis. Ut enim lectus, facilisis auctor lorem eget, porttitor euismod dui. Suspendisse euismod enim quis sapien
+		tincidunt, non posuere arcu ultricies. Etiam sollicitudin ipsum magna, ultrices consequat felis hendrerit quis. Mauris in 
+		sapien at odio commodo blandit eget in tortor. Morbi nisi libero, mattis gravida sapien quis, bibendum auctor libero. Cras 
+		pellentesque condimentum sapien ut ornare. Praesent gravida sem quis odio rutrum, non pharetra velit venenatis. Duis varius 
+		lacinia felis ut maximus. Etiam a magna eu lorem.</p>
+    <table border="1">
+	  	<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Numero</th>			
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Shoyo</td>
+				<td>Hinata</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Tobio</td>
+				<td>Kageyama</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>Kei</td>
+				<td>Tsukishima</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>Tadashi</td>
+				<td>Yamaguchi</td>
+				<td>12</td>
+			</tr>
+		</tbody>
+		<tfoot></tfoot>
+	  </table>
+</section>
+  <section>
+    <h2>Tabla modificada a traves de css</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus nibh, laoreet in vulputate et, euismod in leo. Sed feugiat
+      non eros nec facilisis. Ut enim lectus, facilisis auctor lorem eget, porttitor euismod dui. Suspendisse euismod enim quis sapien
+      tincidunt, non posuere arcu ultricies. Etiam sollicitudin ipsum magna, ultrices consequat felis hendrerit quis. Mauris in 
+      sapien at odio commodo blandit eget in tortor. Morbi nisi libero, mattis gravida sapien quis, bibendum auctor libero. Cras 
+      pellentesque condimentum sapien ut ornare. Praesent gravida sem quis odio rutrum, non pharetra velit venenatis. Duis varius 
+      lacinia felis ut maximus. Etiam a magna eu lorem.</p>
+    <table id="Tabla1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Numero</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shoyo</td>
+          <td>Hinata</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Tobio</td>
+          <td>Kageyama</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Kei</td>
+          <td>Tsukishima</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Tadashi</td>
+          <td>Yamaguchi</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla modificando en hover</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus nibh, laoreet in vulputate et, euismod in leo. Sed feugiat
+      non eros nec facilisis. Ut enim lectus, facilisis auctor lorem eget, porttitor euismod dui. Suspendisse euismod enim quis sapien
+      tincidunt, non posuere arcu ultricies. Etiam sollicitudin ipsum magna, ultrices consequat felis hendrerit quis. Mauris in 
+      sapien at odio commodo blandit eget in tortor. Morbi nisi libero, mattis gravida sapien quis, bibendum auctor libero. Cras 
+      pellentesque condimentum sapien ut ornare. Praesent gravida sem quis odio rutrum, non pharetra velit venenatis. Duis varius 
+      lacinia felis ut maximus. Etiam a magna eu lorem.</p>
+    <table border="1" class="Tabla2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Numero</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shoyo</td>
+          <td>Hinata</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Tobio</td>
+          <td>Kageyama</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Kei</td>
+          <td>Tsukishima</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Tadashi</td>
+          <td>Yamaguchi</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+<section>
+    <h2>Tabla cebra</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus nibh, laoreet in vulputate et, euismod in leo. Sed feugiat
+      non eros nec facilisis. Ut enim lectus, facilisis auctor lorem eget, porttitor euismod dui. Suspendisse euismod enim quis sapien
+      tincidunt, non posuere arcu ultricies. Etiam sollicitudin ipsum magna, ultrices consequat felis hendrerit quis. Mauris in 
+      sapien at odio commodo blandit eget in tortor. Morbi nisi libero, mattis gravida sapien quis, bibendum auctor libero. Cras 
+      pellentesque condimentum sapien ut ornare. Praesent gravida sem quis odio rutrum, non pharetra velit venenatis. Duis varius 
+      lacinia felis ut maximus. Etiam a magna eu lorem.</p>
+    <table width="80%" border="1" cellspacing="2" id="Tabla3">
+		<thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>No.</th>
+		   <th>Equipo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Shoyo</td>
+          <td>&nbsp;Hinata</td>
+          <td class="celdacentrada">&nbsp;10</td>
+          <td>&nbsp;Karasuno</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Kotaro</td>
+          <td>&nbsp;Bokugo</td>
+          <td class="celdacentrada">&nbsp;4</td>
+          <td>&nbsp;Fukurodani</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Tetsuro</td>
+          <td>&nbsp;Kuroo</td>
+          <td class="celdacentrada">&nbsp;1</td>
+          <td>&nbsp;Nekoma</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Toru</td>
+          <td>&nbsp;Oikawa&nbsp;</td>
+          <td class="celdacentrada">&nbsp;18</td>
+          <td>&nbsp;Aoba Johsai</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Atsumu</td>
+          <td>&nbsp;Miya</td>
+          <td class="celdacentrada">&nbsp;15</td>
+          <td>&nbsp;Inarizaki</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Sakusa</td>
+          <td>&nbsp;Kiyoomi</td>
+          <td class="celdacentrada">&nbsp;13</td>
+          <td>&nbsp;Itachiyama</td>
+        </tr>
+		  <tr>
+          <td>Takanobu</td>
+          <td>Aone</td>
+          <td class="celdacentrada">&nbsp;1</td>
+          <td>&nbsp;Date</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Satori</td>
+          <td>Tendo</td>
+          <td class="celdacentrada">5</td>
+          <td>Shiratorizawa</td>
+        </tr>
+        <tr>
+          <td>Tobio&nbsp;</td>
+          <td>Kageyama</td>
+          <td class="celdacentrada">&nbsp;9</td>
+          <td>Karasuno</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Osamu</td>
+          <td>Miya</td>
+          <td class="celdacentrada">11</td>
+          <td>&nbsp;Inarizaki</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<section>
+  <h2>Tabla receptiva&nbsp;&nbsp;</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus nibh, laoreet in vulputate et, euismod in leo. Sed feugiat
+  non eros nec facilisis. Ut enim lectus, facilisis auctor lorem eget, porttitor euismod dui. Suspendisse euismod enim quis sapien
+  tincidunt, non posuere arcu ultricies. Etiam sollicitudin ipsum magna, ultrices consequat felis hendrerit quis. Mauris in 
+  sapien at odio commodo blandit eget in tortor. Morbi nisi libero, mattis gravida sapien quis, bibendum auctor libero. Cras 
+  pellentesque condimentum sapien ut ornare. Praesent gravida sem quis odio rutrum, non pharetra velit venenatis. Duis varius 
+  lacinia felis ut maximus. Etiam a magna eu lorem.</p>
+<div class="Overflow_x">
+  <table width="80%" border="1" cellspacing="2" class="Tabla4">
+    <thead>
+      <tr>
+        <th scope="col">&nbsp;Nombre</th>
+        <th scope="col">Apellido&nbsp;</th>
+        <th scope="col">&nbsp;R.1&nbsp;</th>
+        <th scope="col">R.2&nbsp;</th>
+        <th scope="col">R.3&nbsp;</th>
+        <th scope="col">&nbsp;R.4&nbsp;</th>
+        <th scope="col">R.5&nbsp;</th>
+        <th scope="col">R.6&nbsp;</th>
+        <th scope="col">R.7&nbsp;</th>
+        <th scope="col">R.8&nbsp;</th>
+        <th scope="col">R.9&nbsp;</th>
+        <th scope="col">R.10</th>
+      </tr>
+	</thead>
+	<tbody>
+      <tr>
+        <td>&nbsp;Shoyo</td>
+        <td>&nbsp;Hinata</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;6</td>
+        <td>&nbsp;9</td>
+        <td>&nbsp;7</td>
+        <td>8</td>
+        <td>&nbsp;9</td>
+        <td>&nbsp;7</td>
+        <td>9</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;6</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Kotaro</td>
+        <td>&nbsp;Bokuto</td>
+        <td>9</td>
+        <td>&nbsp;7</td>
+        <td>8&nbsp;</td>
+        <td>&nbsp;6</td>
+        <td>7</td>
+        <td>&nbsp;9</td>
+        <td>&nbsp;10</td>
+        <td>8</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;9</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Atsumu</td>
+        <td>Miya&nbsp;</td>
+        <td>&nbsp;7</td>
+        <td>&nbsp;8</td>
+        <td>10</td>
+        <td>9</td>
+        <td>&nbsp;7</td>
+        <td>&nbsp;10</td>
+        <td>&nbsp;6</td>
+        <td>&nbsp;10</td>
+        <td>9</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Morales Cortes Michel Alex</h6>
+</footer>
+</body>
+</html>
